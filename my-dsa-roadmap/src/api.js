@@ -202,7 +202,7 @@ import axios from 'axios';
 //   },
 // });
 // 🔹 Use env variable for backend URL
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:50001/api';
 
 // Create an axios instance with base configuration
 const api = axios.create({
