@@ -8,6 +8,7 @@ dotenv.config();
 
 const PORT = process.env.PORT || 5000;
 const MONGO_URI = process.env.MONGO_URI;
+const NODE_ENV = process.env.NODE_ENV || 'development';
 
 if (!MONGO_URI) {
   console.error('MONGO_URI is not defined in environment variables');
